@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>Earthsong</id>
+    <name>Earthsong theme</name>
+    <vendor email="gabriel.nakic@outlook.com">Gabriel Nakic</vendor>
+
+    <description><![CDATA[
+    A theme with earthly colors. Inspired by the Rainglow theme.
+        ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="914a10b4-aeba-4c29-98c6-23baf82aae08" path="/Earthsong.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

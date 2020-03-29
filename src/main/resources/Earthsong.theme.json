@@ -1,0 +1,204 @@
+{
+  "name": "Earthsong",
+  "dark": true,
+  "author": "Gabriel Nakic",
+  "editorScheme": "/Earthsong.xml",
+  "ui": {
+    "*": {
+      "background": "#332e28",
+      "foreground": "#ebd1b7",
+
+      "selectionBackground": "#4b4942",
+      "selectionBackgroundInactive": "#35332c",
+      "selectionInactiveBackground": "#3d3b35",
+
+      "disabledForeground": "#876e61",
+      "disabledText": "#876e61",
+      "inactiveForeground": "#876e61",
+
+      "infoForeground": "#897766",
+      "modifiedItemForeground": "#68665b",
+
+      "acceleratorSelectionForeground": "#ebd1b7",
+
+      "separatorColor": "#413b33",
+      "borderColor": "#403b33",
+
+      "underlineColor": "#68665b"
+    },
+
+    "Borders": {
+      "color": "#292521",
+      "ContrastBorderColor": "#2b2723"
+    },
+
+    "Button": {
+      "startBackground": "#4c453c",
+      "endBackground": "#463f37",
+
+      "shadowColor": "#A6A6A620",
+      "startBorderColor": "#635c51",
+      "endBorderColor": "#625b51",
+      "default": {
+        "foreground": "#5d4a44",
+        "focusColor": "#fdcab8",
+        "startBackground": "#bfa590",
+        "endBackground": "#d1b59f",
+        "startBorderColor": "#d7baa2",
+        "endBorderColor": "#bfa590",
+        "shadowColor": "#67524b50",
+        "focusedBorderColor": "#d6b9a1"
+      }
+    },
+
+    "ComboBox": {
+      "ArrowButton": {
+        "background": "#4c453c",
+        "iconColor": "#ebd1b7",
+        "disabledIconColor": "#968674",
+        "nonEditableBackground": "#332e28"
+      },
+      "nonEditableBackground": "#2e2925"
+    },
+
+    "ComboBoxButton.background": "#322d28",
+
+    "ComboPopup.border": "1,1,1,1,D4D6D9",
+
+    "Component": {
+      "borderColor": "#635c51",
+      "focusColor": "#7b6b5c",
+      "focusedBorderColor": "#594d42"
+    },
+
+    "Counter": {
+      "background": "#7b6b5c",
+      "foreground": "#ebd1b7"
+    },
+
+    "Editor": {
+      "background": "#26231d",
+      "foreground": "#9e8c7b",
+      "shortcutForeground": "#d2baa4"
+    },
+
+    "EditorPane.inactiveBackground": "#4d4d4d12",
+
+    "EditorTabs": {
+      "selectedBackground": "#67524b",
+      "underlinedTabBackground": "#403a32",
+      "inactiveColoredFileBackground": "#484038"
+    },
+
+    "FileColor.Yellow": "#2a2923",
+    "FileColor.Green": "#272825",
+
+    "Label.errorForeground": "#C7222D",
+
+    "Notification": {
+      "background": "#443d35",
+      "borderColor": "#4c443b",
+      "MoreButton": {
+        "background": "#544b41",
+        "foreground": "#a79582",
+        "innerBorderColor": "#5d544b"
+      }
+    },
+
+    "PasswordField.background": "#443d35",
+
+    "Popup": {
+      "Header": {
+        "activeBackground": "#413b33",
+        "inactiveBackground": "#413b33"
+      },
+      "borderColor": "#5c5448"
+    },
+
+    "ProgressBar": {
+      "trackColor": "#5d5d5d",
+      "foreground": "#ebd1b7",
+      "indeterminateStartColor": "#b69f88",
+      "indeterminateEndColor": "#64584b"
+    },
+
+    "SearchEverywhere":  {
+      "Header.background": "#413b33",
+      "SearchField.background": "#332e28",
+      "Tab.selectedBackground": "#4d4840",
+      "Advertiser.foreground": "#544d42"
+    },
+
+    "SearchMatch": {
+      "startBackground": "#e2b978",
+      "endBackground": "#e2b978"
+    },
+
+    "SidePanel.background": "#332e28",
+
+    "SpeedSearch": {
+      "background": "#645a4f",
+      "borderColor": "#7b6e62",
+      "errorForeground": "#d52430"
+    },
+
+    "TabbedPane": {
+      "contentAreaColor": "#524a41"
+    },
+
+    "Table.stripeColor": "#3d3730",
+
+    "TableHeader": {
+      "cellBorder": "3,0,3,0",
+      "background": "#4b433b",
+      "bottomSeparatorColor": "#595146"
+    },
+
+    "TextArea.background": "#332e28",
+
+    "TextField.background": "#332e28",
+
+    "ToggleButton": {
+      "onBackground": "#74695a",
+      "borderColor": "#8d7f6e"
+    },
+
+    "ToolWindow": {
+      "Header": {
+        "background": "#4a433a",
+        "inactiveBackground": "#332e28"
+      },
+      "HeaderTab": {
+        "hoverBackground": "#40392f",
+        "selectedInactiveBackground": "#40392f",
+        "hoverInactiveBackground": "#40392f"
+      },
+      "Button": {
+        "selectedBackground": "#2b2720",
+        "hoverBackground": "#403a32"
+      }
+    },
+
+    "Tree.rowHeight": 22,
+
+    "VersionControl": {
+      "Log.Commit.currentBranchBackground": "#332e28"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "#af9d89",
+      "Objects.Grey": "#9e8e7dff",
+
+      "Checkbox.Background.Default.Dark": "#282828",
+      "Checkbox.Border.Default.Dark": "#bba791",
+      "Checkbox.Foreground.Selected.Dark": "#bba892",
+      "Checkbox.Focus.Wide.Dark": "#e2b978",
+      "Checkbox.Focus.Thin.Default.Dark": "#e2b978",
+      "Checkbox.Focus.Thin.Selected.Dark": "#e2b978",
+      "Checkbox.Background.Disabled.Dark": "#9e8154",
+      "Checkbox.Border.Disabled.Dark": "#a89984",
+      "Checkbox.Foreground.Disabled.Dark": "#a89984"
+    }
+  }
+}
