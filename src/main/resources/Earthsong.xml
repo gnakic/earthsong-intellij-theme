@@ -36,7 +36,7 @@
     <option name="INFORMATION_HINT" value="36312c" />
     <option name="LINE_NUMBERS_COLOR" value="60574e" />
     <option name="METHOD_SEPARATORS_COLOR" value="443e37" />
-    <option name="MODIFIED_LINES_COLOR" value="" />
+      <option name="MODIFIED_LINES_COLOR" value="#4B443A" />
     <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
     <option name="MT_SUPPRESSED" value="ebd1b7" />
     <option name="NOTIFICATION_BACKGROUND" value="3d1a11" />
