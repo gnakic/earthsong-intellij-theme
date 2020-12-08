@@ -2,4 +2,4 @@
 
 ![screenshot](Screenshot.jpg)
 
-A theme with earthly colors. Inspired by Rainglow.
+A theme with earthly colors. Color scheme taken from [Rainglow](https://rainglow.io/).
