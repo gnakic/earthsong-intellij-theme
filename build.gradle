@@ -29,6 +29,6 @@ patchPluginXml {
     </ul>
       """
 
-    sinceBuild '183.0'
+    sinceBuild '191.0'
     untilBuild '211.*'
 }
