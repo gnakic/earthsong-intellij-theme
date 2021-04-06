@@ -469,12 +469,7 @@
         <option name="FOREGROUND" value="db784d" />
       </value>
     </option>
-    <option name="CSS.IMPORTANT">
-      <value>
-        <option name="FOREGROUND" value="95cc5e" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.PROPERTY_VALUE">
       <value>
         <option name="FOREGROUND" value="60a365" />
@@ -509,12 +504,6 @@
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
         <option name="FOREGROUND" value="868686" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEFAULT_ATTRIBUTE">
-      <value>
-        <option name="FOREGROUND" value="95cc5e" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1116,12 +1105,7 @@
         <option name="FOREGROUND" value="e0b78f" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="ebd1b7" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="f8bb39" />
@@ -1197,12 +1181,6 @@
       <value>
         <option name="EFFECT_COLOR" value="ff5370" />
         <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="95cc5e" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
@@ -2276,12 +2254,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="PROPERTIES.KEY">
-      <value>
-        <option name="FOREGROUND" value="95cc5e" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PROPERTIES.KEY_VALUE_SEPARATOR">
       <value>
         <option name="FOREGROUND" value="e0b78f" />
@@ -2435,12 +2408,6 @@
     <option name="QL_ID_VARIABLE">
       <value>
         <option name="FOREGROUND" value="ebd1b7" />
-      </value>
-    </option>
-    <option name="QL_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="95cc5e" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="QL_NUMBER">
@@ -3270,12 +3237,7 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="ebd1b7" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="f8bb39" />
@@ -3331,5 +3293,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="QL_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
   </attributes>
 </scheme>
