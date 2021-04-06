@@ -66,7 +66,7 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="APACHE_CONFIG.ARG_LEXEM">
       <value>
         <option name="FOREGROUND" value="f8bb39" />
@@ -500,7 +500,7 @@
     </option>
     <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="Class" baseAttributes="" />
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
         <option name="FOREGROUND" value="868686" />
@@ -990,14 +990,13 @@
         <option name="FOREGROUND" value="95cc5e" />
       </value>
     </option>
-    <option name="Groovy method declaration" baseAttributes="METHOD_DECLARATION_ATTRIBUTES" />
-    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
+    <option name="HAML_RUBY_CODE" baseAttributes="" />
     <option name="HAML_TAG">
       <value>
         <option name="FOREGROUND" value="ebd1b7" />
       </value>
     </option>
-    <option name="HAML_TEXT" baseAttributes="TEXT" />
+    <option name="HAML_TEXT" baseAttributes="" />
     <option name="HOCON_BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="ff5370" />
@@ -2049,11 +2048,6 @@
         <option name="FOREGROUND" value="e3d9b5" />
       </value>
     </option>
-    <option name="OC.TEMPLATE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="60a365" />
-      </value>
-    </option>
     <option name="OC.TYPEDEF">
       <value>
         <option name="FOREGROUND" value="e3d9b5" />
@@ -2254,7 +2248,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PROPERTIES.KEY" baseAttributes="" />
     <option name="PROPERTIES.KEY_VALUE_SEPARATOR">
       <value>
         <option name="FOREGROUND" value="e0b78f" />
@@ -2280,7 +2274,7 @@
         <option name="FOREGROUND" value="e0b78f" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME" baseAttributes="" />
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.COMMA">
       <value>
         <option name="FOREGROUND" value="e0b78f" />
@@ -2320,6 +2314,8 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="7a7267" />
@@ -2336,6 +2332,7 @@
         <option name="FOREGROUND" value="e0b78f" />
       </value>
     </option>
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="ebd1b7" />
@@ -2343,7 +2340,7 @@
     </option>
     <option name="PY.SELF_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="91aabe" />
+        <option name="FOREGROUND" value="a9b7c6" />
       </value>
     </option>
     <option name="PY.STRING">
@@ -2827,7 +2824,7 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
     <option name="SUGGESTION">
       <value>
         <option name="EFFECT_COLOR" value="607d8b" />
@@ -3113,8 +3110,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
-    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
+    <option name="Static method access" baseAttributes="" />
     <option name="String">
       <value>
         <option name="FOREGROUND" value="f8bb39" />
@@ -3282,17 +3278,18 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="org.rust.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="org.rust.MACRO">
       <value>
         <option name="FOREGROUND" value="f38871" />
       </value>
     </option>
+    <option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="osmorc.headerName">
       <value>
         <option name="FOREGROUND" value="a7dbd8" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="QL_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
   </attributes>
 </scheme>

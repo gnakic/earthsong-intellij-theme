@@ -1,5 +1,5 @@
 # Earthsong Intellij IDEA Theme
 
-![screenshot](Screenshot.jpg)
+![screenshot](Theme.png)
 
-A theme with earthly colors. Color scheme taken from [Rainglow](https://rainglow.io/).
+A theme with earthly colors. Color scheme taken and expanded from [Rainglow](https://rainglow.io/).
