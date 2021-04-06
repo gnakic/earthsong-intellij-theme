@@ -12,6 +12,7 @@
       "selectionBackgroundInactive": "#35332c",
       "selectionInactiveBackground": "#3d3b35",
 
+      "disabledBackground": "#332e28",
       "disabledForeground": "#876e61",
       "disabledText": "#876e61",
       "inactiveForeground": "#876e61",
@@ -20,6 +21,8 @@
       "modifiedItemForeground": "#68665b",
 
       "acceleratorSelectionForeground": "#ebd1b7",
+
+      "lightSelectionBackground": "#4c453c",
 
       "separatorColor": "#413b33",
       "borderColor": "#403b33",
@@ -32,9 +35,17 @@
       "ContrastBorderColor": "#2b2723"
     },
 
+    "Link": {
+      "activeForeground": "#82ac84",
+      "hoverForeground": "#82ac84",
+      "pressedForeground": "#82ac84",
+      "visitedForeground": "#82ac84"
+    },
+
     "Button": {
       "startBackground": "#4c453c",
       "endBackground": "#463f37",
+      "focusedBorderColor": "#514d4c",
 
       "shadowColor": "#A6A6A620",
       "startBorderColor": "#635c51",
@@ -56,9 +67,9 @@
         "background": "#4c453c",
         "iconColor": "#ebd1b7",
         "disabledIconColor": "#968674",
-        "nonEditableBackground": "#332e28"
+        "nonEditableBackground": "#4c453c"
       },
-      "nonEditableBackground": "#2e2925"
+      "nonEditableBackground": "#4c453c"
     },
 
     "ComboBoxButton.background": "#322d28",
@@ -69,6 +80,10 @@
       "borderColor": "#635c51",
       "focusColor": "#7b6b5c",
       "focusedBorderColor": "#594d42"
+    },
+
+    "ColorChooser": {
+      "background": "#443d35"
     },
 
     "Counter": {
@@ -196,8 +211,7 @@
       "Checkbox.Focus.Wide.Dark": "#e2b978",
       "Checkbox.Focus.Thin.Default.Dark": "#e2b978",
       "Checkbox.Focus.Thin.Selected.Dark": "#e2b978",
-      "Checkbox.Background.Disabled.Dark": "#9e8154",
-      "Checkbox.Border.Disabled.Dark": "#a89984",
+      "Checkbox.Background.Disabled.Dark": "#332e28",
       "Checkbox.Foreground.Disabled.Dark": "#a89984"
     }
   }
