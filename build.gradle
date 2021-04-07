@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.gabluc'
-version '0.1.0'
+version '0.2.0'
 
 sourceCompatibility = 1.8
 
@@ -23,6 +23,16 @@ intellij {
 
 patchPluginXml {
     changeNotes """
+    <h2>0.2.0</h2>
+    <ul>
+        <li>Syntax highlighting semantics are consistent across languages.</li>
+        <li>Pruned down the amount of color variations to make syntax higlighting more minimal.</li>
+        <li>Links are now green.</li>
+        <li>Remove italics in keywords.</li>
+        <li>Comboboxes are styled to be consistent with buttons.</li>
+        <li>Fix project selection color.</li>
+        <li>Fix combobox and checkbox disabled states.</li>
+    </ul>
     <h2>0.1.0</h2>
     <ul>
         <li>Initial release</li>
