@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.gabluc'
-version '0.2.0'
+version '0.2.1'
 
 sourceCompatibility = 1.8
 
@@ -23,6 +23,10 @@ intellij {
 
 patchPluginXml {
     changeNotes """
+    <h2>0.2.1</h2>
+    <ul>
+        <li>2021.2 support</li>
+    </ul>
     <h2>0.2.0</h2>
     <ul>
         <li>Syntax highlighting semantics are consistent across languages.</li>
@@ -40,5 +44,5 @@ patchPluginXml {
       """
 
     sinceBuild '191.0'
-    untilBuild '211.*'
+    untilBuild '212.*'
 }
